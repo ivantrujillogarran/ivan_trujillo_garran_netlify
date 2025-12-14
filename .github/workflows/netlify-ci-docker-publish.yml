@@ -13,7 +13,7 @@ jobs:
   build-push-and-update-site:
     runs-on: ubuntu-latest
     env:
-      IMAGE_NAME: ghcr.io/${{ github.repository_owner }}/ivan_trujillo_garran_netlify
+      IMAGE_NAME: ghcr.io/${{ github.repository }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
